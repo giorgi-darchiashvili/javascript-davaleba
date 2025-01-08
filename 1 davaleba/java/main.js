@@ -2,7 +2,7 @@
 
 
 
-let food = "Pizza"
+const food = "Khinkali"
 
 switch (food) {
     case "Pizza":
@@ -17,3 +17,6 @@ switch (food) {
     default:
         console.log("ასეთი კერძი არ გვაქვს 🙁");
 }
+
+
+
