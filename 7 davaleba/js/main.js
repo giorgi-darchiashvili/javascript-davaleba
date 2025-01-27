@@ -25,11 +25,12 @@ request.addEventListener('load', function () {
     let html = `<div class="post">
         <img src="${data[1]['flags']['png']}"> 
         <P> Capital: ${data[1]['capital']}</P> 
-        <p> Population: ${data[1]['population']}<p>
-        <p> currencies: ${data[1]['currencies']['GEL']['name']}<p>
+        <p> Population: ${data[1]['population']} </p>
+        <p> currencies: ${data[1]['currencies']['GEL']['name']} </p>
     </div >` ;
 
-    postDiv.innerHTML = html;
+
+    postDiv.innerHTML += html;
 
 
 });
@@ -44,9 +45,9 @@ requestusa.addEventListener('load', function () {
 
     let html1 = `<div class="post1">
     <img src="${data[0]['flags']['png']}"> 
-    <P> Capital: ${data[0]['capital']}</P> 
-    <p> Population: ${data[0]['population']}<p>
-    <p> currencies: ${data[0]['currencies']['USD']['name']}<p>
+    <P> Capital: ${data[0]['capital']} </P> 
+    <p> Population: ${data[0]['population']} </p>
+    <p> currencies: ${data[0]['currencies']['USD']['name']} </p>
 </div >` ;
 
 postDiv.innerHTML += html1;
